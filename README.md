@@ -1,7 +1,16 @@
-# CRUD Operation - Node js(express,mongodb.mongoose)
+# CRUD Operation - Node.js (Express, MongoDB, Mongoose)
 
 ## Description
-This project is a Node.js application that demonstrates CRUD operations with MongoDB. It uses Express.js as the server framework, Mongoose as the ODM (Object Data Modeling) library for MongoDB, and includes routes for performing CRUD operations on a user model.
+This project is a Node.js application that demonstrates CRUD operations with MongoDB. It uses Express.js as the server framework and Mongoose as the ODM (Object Data Modeling) library for MongoDB. The application includes routes for performing CRUD operations on a user model.
+
+## Features
+
+- **Create User:** Allows the creation of new user records with email, password, contact, and location.
+- **Read User:** Retrieves user details based on the request.
+- **Update User:** Updates existing user records with new data.
+- **Delete User:** Removes user records from the database.
+- **Password Hashing:** Passwords are securely hashed before storing in the database.
+- **Error Handling:** Includes basic error handling for CRUD operations.
 
 ## Requirements
 
@@ -10,15 +19,14 @@ This project is a Node.js application that demonstrates CRUD operations with Mon
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/ArpanaG123/CRUD-Operation-Nodejs.git
-
-
 
 **API Endpoints**
 
-1.Create User
-Endpoint: POST /user/create
+1.Create User - Method:POST
+Endpoint: /user/create
 Request Body:
 json
 **{
@@ -43,8 +51,8 @@ json
 }**
 
 
-2.Read User
-Endpoint: GET /user/fetch
+2.Read User - Method:GET
+Endpoint: /user/fetch
 Response:
 json
 **{
@@ -59,8 +67,8 @@ json
     }
 }**
 
-3.Update User
-Endpoint: PUT /user/update/:id
+3.Update User - Method:PUT
+Endpoint: /user/update/:id
 Request Body:
 json
 **{
@@ -84,8 +92,8 @@ json
     }
 }**
 
-4.Delete User
-Endpoint: DELETE /user/delete/:id
+4.Delete User - Method:DELETE
+Endpoint: /user/delete/:id
 Response:
 json
 **{
