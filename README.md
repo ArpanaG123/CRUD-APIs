@@ -21,7 +21,7 @@ This project is a Node.js application that demonstrates CRUD operations with Mon
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ArpanaG123/CRUD-Operation-Nodejs.git
+   git clone [https://github.com/ArpanaG123/CRUD-Operation-Nodejs.git](https://github.com/ArpanaG123/CRUD-APIs.git)
 
 **API Endpoints**
 
