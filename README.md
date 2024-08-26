@@ -1,4 +1,4 @@
-# CRUD Operation - Node.js (Express, MongoDB, Mongoose)
+# CRUD Operation - REST APIs
 
 ## Description
 This project is a Node.js application that demonstrates CRUD operations with MongoDB. It uses Express.js as the server framework and Mongoose as the ODM (Object Data Modeling) library for MongoDB. The application includes routes for performing CRUD operations on a user model.
